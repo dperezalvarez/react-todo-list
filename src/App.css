@@ -1,0 +1,29 @@
+/* Estilos básicos para la lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin: 4px 0;
+}
+
+/* Estilo para tareas completadas */
+.tarea-completada {
+  color: gray;
+  text-decoration: line-through;
+}
+
+/* Botón de eliminar */
+button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
